@@ -1,0 +1,156 @@
+:root{
+    --font-family:"Karla", sans-serif;
+    --font-weight:700;
+    --body-color:hsl(139,36%,91%);
+    --div-colorWhite: hsl(0, 0%, 100%);
+    --btn-color: hsl(169, 82%, 27%);
+    --h-color:hsl(169, 82%, 27%);
+    --border-color: hsl(0, 0%, 39%);
+}
+body{
+    margin-top: 10px;
+    font-family: var(--font-family);
+    background-color: var(--body-color);
+}
+.Container{
+    margin: auto;
+    min-width: 590px;
+    width : 50%;
+    border-radius: 5px;
+    background-color: var(--div-colorWhite);
+}
+h1{
+    padding: 20px 20px;
+    margin: 0px;
+}
+.section1{
+    width: 100%;
+}
+.input1{
+    display: inline-block;
+    width: 35%;
+    padding: 10px 40px 10px 30px;
+    margin-top: 5px;
+}
+.input2{
+    display: inline-block;
+    width: 35%;
+    padding: 10px 20px 10px 30px;
+}
+.input3{
+    display: inline-block;
+    width: 80%;
+    padding: 10px 30px 10px 30px;
+}
+
+input[type=text]{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+.section2{
+    padding: 5px 20px 10px 20px;
+}
+.General-Enquiry{
+    display: inline-block;
+    width: 40%;
+    border: 1px solid var(--border-color);
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding : 10px 10px;
+}
+.Support-Request{
+    display: inline-block;
+    width: 40%;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    margin: 0px;
+    border-radius: 5px;
+    padding : 10px 20px;
+}
+.Querytype{
+    width: 30%;
+    padding: 5px 10px;
+}
+.Message{
+    margin: 10px 10px;
+}
+textarea{
+    display: inline-block;
+    width: 90%;
+    margin-top: 10px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.Msg{
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+}
+button{
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+    color: var(--div-colorWhite);
+    background-color: var(--btn-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+}
+.Bottom{
+    padding: 10px;
+    margin: 0px;
+}
+.btn{
+    padding: 15px 5px;
+}
+.input1:hover{
+    color: var(--btn-color);
+}
+.input1 input:hover{
+    border-color: var(--btn-color);
+}
+.input2:hover{
+    color: var(--btn-color);
+}
+.input2 input:hover{
+    border-color: var(--btn-color);
+}
+.input3 input:hover{
+    border-color: var(--btn-color);
+}
+.input3:hover{
+    color: var(--btn-color);
+}
+input[type="text"]:hover{
+    cursor: pointer;
+    color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+}
+.Message:hover{
+    cursor: pointer;
+    color:var(--btn-color);
+    background-color: var(--div-colorWhite);
+}
+.General-Enquiry:hover{
+    cursor: pointer;
+    color: var(--div-colorWhite);
+    background-color: var(--btn-color);
+}
+.Support-Request:hover{
+    cursor: pointer;
+    color: var(--div-colorWhite);
+    background-color: var(--btn-color);
+}
+.Bottom input{
+    cursor: pointer;
+    accent-color: hsl(169,82%, 27%);
+}
+input{
+    padding: 20px 20px 20px 20px;
+}

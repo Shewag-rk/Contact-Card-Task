@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <h1>Contact Us</h1>
+      <div class="forms">
+        <div class="section1">
+          <div class="input1">
+            <label for="fname">First Name *</label>
+            <input type="text" id="fname" name="firstname" />
+          </div>
+
+          <div class="input2">
+            <label for="lname">Last Name *</label>
+            <input type="text" id="lname" name="lastname" />
+          </div>
+        </div>
+
+        <div class="input3">
+          <label for="Email">Email *</label>
+          <input type="text" id="Email" name="Email" /><br />
+        </div>
+
+        <div class="section2">
+          <div class="Querytype">
+            <label for="Query">Query Type*</label>
+          </div>
+
+          <div class="General-Enquiry">
+            <input type="radio" id="General" name="Querytype"/>
+            <label for="General">General Enquiry</label>
+          </div>
+
+          <div class="Support-Request">
+            <input type="radio" id="Support" name="Querytype"/>
+            <label for="Support">Support Request</label>
+          </div>
+
+          <div class="Message">
+            <label for="Message">Message</label>
+            <textarea name="Message" id="Message"></textarea>
+          </div>
+
+            <div class="Bottom">
+                <input type="checkbox" id="Terms" name="Terms"/>
+                <label for="Terms">I consent to beign contacted by the terms*</label><br>
+                <div class="btn">  
+                  <button>Submit</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
