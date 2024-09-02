@@ -134,7 +134,7 @@ input[type="text"]:hover{
 }
 .Message:hover{
     cursor: pointer;
-    color:var(--btn-color);
+    accent-color:var(--btn-color);
     background-color: var(--div-colorWhite);
 }
 .General-Enquiry:hover{
@@ -146,6 +146,9 @@ input[type="text"]:hover{
     cursor: pointer;
     color: var(--div-colorWhite);
     background-color: var(--btn-color);
+}
+.radio1{
+    accent-color: hsl(169, 82%, 27%);
 }
 .Bottom input{
     cursor: pointer;
